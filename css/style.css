@@ -74,6 +74,11 @@ header {
 .btn {
      width: 100px;
      height: 35px;
+     color: white;
+     background-color: orange;
+     border: 0 solid transparent;
+     border-radius: 5px;
+
 }
 .social-statistics {
      display: flex;
@@ -175,6 +180,7 @@ header {
      display: flex;
      flex-flow: column wrap;
      place-content: center;
+     gap: 10px;
      align-items: center;
 }
 .book-table {
@@ -188,6 +194,7 @@ header {
      border-radius: 50%;
      color: #f18d3b;
      padding: 15px;
+     font-size: 1.4rem;
 }
 .book-number {
      font-size: 2rem;
@@ -217,7 +224,27 @@ header {
      color: orange;
 }
 .testomonial-title {
-     font-size: 2.5rem;
+     font-size: 3.5rem;
+}
+.testomonials img {
+     border: 1px solid transparent;
+     border-radius: 50%;
+}
+.testomonials h4 {
+     font-size: 1.75rem;
+}
+.position {
+     color: #b5b5c1;
+}
+.astrect {
+     color: #ffc317;
+     font-size: 1.75rem;
+}
+.testomonial-text {
+     width: 80%;
+     font-size: 1.2rem;
+     line-height: 2rem;
+     color: #a8aab7;
 }
 /* End Testomonials */
 footer {
