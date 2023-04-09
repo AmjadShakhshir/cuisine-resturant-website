@@ -157,7 +157,7 @@ header {
      flex-wrap: wrap;
 }
 .carousel-list {
-     gap: 20px;
+     justify-content: space-evenly;
 }
 .carousel-img {
      width: 100%;
@@ -169,8 +169,57 @@ header {
 .carousel-img img{
      height: 90%;
 }
-
 /* End Order */
+/* Start Book */
+.book {
+     display: flex;
+     flex-flow: column wrap;
+     place-content: center;
+     align-items: center;
+}
+.book-table {
+     color: orange;
+}
+.book-title {
+     font-size: 2.5rem;
+}
+.book .fa-phone {
+     border: 1px solid #f18d3b;
+     border-radius: 50%;
+     color: #f18d3b;
+     padding: 15px;
+}
+.book-number {
+     font-size: 2rem;
+     color: #f18d3b;
+}
+.book-content {
+     display: flex;
+     width: 60%;
+     justify-content: space-between;
+}
+.book-video {
+     width: 850px;
+     height: 550px;
+     border: 1px solid red;
+     background-image: url("../img/different-coffee-cups-arrangement-top-view.png");
+     
+}
+/* End Book */
+/* Start Testomonials */
+.testomonials {
+     display: flex;
+     flex-flow: column wrap;
+     place-content: center;
+     align-items: center;
+}
+.testomonial-span {
+     color: orange;
+}
+.testomonial-title {
+     font-size: 2.5rem;
+}
+/* End Testomonials */
 footer {
 
 }
